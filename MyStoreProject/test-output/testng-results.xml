@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="20" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-29T14:47:21 IST" name="Suite" finished-at="2024-06-29T14:51:38 IST" duration-ms="257334">
+    <groups>
+      <group name="Sanity">
+        <method signature="AddToCartPageTest.addToCartTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testcases.AddToCartPageTest@4fb3ee4e]" name="addToCartTest" class="com.mystore.testcases.AddToCartPageTest"/>
+        <method signature="LoginPageTest.loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@2c35e847]" name="loginTest" class="com.mystore.testcases.LoginPageTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="AddToCartPageTest.addToCartTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testcases.AddToCartPageTest@4fb3ee4e]" name="addToCartTest" class="com.mystore.testcases.AddToCartPageTest"/>
+        <method signature="EndToEndTest.endToEndTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testcases.EndToEndTest@21e360a]" name="endToEndTest" class="com.mystore.testcases.EndToEndTest"/>
+        <method signature="OrderPageTest.verifyTotalPrice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testcases.OrderPageTest@25fb8912]" name="verifyTotalPrice" class="com.mystore.testcases.OrderPageTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="HomePageTest.orderHistoryandDetailsTest(java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testcases.HomePageTest@5d7148e2]" name="orderHistoryandDetailsTest" class="com.mystore.testcases.HomePageTest"/>
+        <method signature="IndexPageTest.verifyLogo()[pri:0, instance:com.mystore.testcases.IndexPageTest@7bd4937b]" name="verifyLogo" class="com.mystore.testcases.IndexPageTest"/>
+        <method signature="IndexPageTest.verifyTitle()[pri:0, instance:com.mystore.testcases.IndexPageTest@7bd4937b]" name="verifyTitle" class="com.mystore.testcases.IndexPageTest"/>
+        <method signature="LoginPageTest.loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@2c35e847]" name="loginTest" class="com.mystore.testcases.LoginPageTest"/>
+        <method signature="SearchResultPageTest.productAvailabilityTest(java.lang.String)[pri:0, instance:com.mystore.testcases.SearchResultPageTest@7c24b813]" name="productAvailabilityTest" class="com.mystore.testcases.SearchResultPageTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-06-29T14:47:21 IST" name="Test_All" finished-at="2024-06-29T14:51:38 IST" duration-ms="257334">
+      <class name="com.mystore.testcases.EndToEndTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.EndToEndTest@21e360a]" started-at="2024-06-29T14:49:59 IST" name="setup" finished-at="2024-06-29T14:50:05 IST" duration-ms="6452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="endToEndTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testcases.EndToEndTest@21e360a]" started-at="2024-06-29T14:50:05 IST" name="endToEndTest" data-provider="getProduct" finished-at="2024-06-29T14:51:38 IST" duration-ms="92259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dresses]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.EndToEndTest@21e360a]" started-at="2024-06-29T14:51:38 IST" name="tearDown" finished-at="2024-06-29T14:51:38 IST" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testcases.EndToEndTest -->
+      <class name="com.mystore.testcases.SearchResultPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.SearchResultPageTest@7c24b813]" started-at="2024-06-29T14:49:08 IST" name="setup" finished-at="2024-06-29T14:49:17 IST" duration-ms="9192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="productAvailabilityTest(java.lang.String)[pri:0, instance:com.mystore.testcases.SearchResultPageTest@7c24b813]" started-at="2024-06-29T14:49:17 IST" name="productAvailabilityTest" data-provider="searchProduct" finished-at="2024-06-29T14:49:22 IST" duration-ms="4892" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dresses]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productAvailabilityTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@7c24b813]" started-at="2024-06-29T14:49:22 IST" name="tearDown" finished-at="2024-06-29T14:49:24 IST" duration-ms="1926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testcases.SearchResultPageTest -->
+      <class name="com.mystore.testcases.AddToCartPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.AddToCartPageTest@4fb3ee4e]" started-at="2024-06-29T14:47:21 IST" name="loadConfig" finished-at="2024-06-29T14:47:21 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.AddToCartPageTest@4fb3ee4e]" started-at="2024-06-29T14:47:22 IST" name="setup" finished-at="2024-06-29T14:47:33 IST" duration-ms="11154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addToCartTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testcases.AddToCartPageTest@4fb3ee4e]" started-at="2024-06-29T14:47:33 IST" name="addToCartTest" data-provider="getProduct" finished-at="2024-06-29T14:48:06 IST" duration-ms="33010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dresses]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.AddToCartPageTest@4fb3ee4e]" started-at="2024-06-29T14:48:06 IST" name="tearDown" finished-at="2024-06-29T14:48:07 IST" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystore.testcases.AddToCartPageTest@4fb3ee4e]" started-at="2024-06-29T14:51:38 IST" name="afterSuite" finished-at="2024-06-29T14:51:39 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.mystore.testcases.AddToCartPageTest -->
+      <class name="com.mystore.testcases.IndexPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.IndexPageTest@7bd4937b]" started-at="2024-06-29T14:49:39 IST" name="setup" finished-at="2024-06-29T14:49:49 IST" duration-ms="9768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogo()[pri:0, instance:com.mystore.testcases.IndexPageTest@7bd4937b]" started-at="2024-06-29T14:49:49 IST" name="verifyLogo" finished-at="2024-06-29T14:49:49 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.IndexPageTest@7bd4937b]" started-at="2024-06-29T14:49:49 IST" name="tearDown" finished-at="2024-06-29T14:49:49 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.IndexPageTest@7bd4937b]" started-at="2024-06-29T14:49:49 IST" name="setup" finished-at="2024-06-29T14:49:59 IST" duration-ms="9385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitle()[pri:0, instance:com.mystore.testcases.IndexPageTest@7bd4937b]" started-at="2024-06-29T14:49:59 IST" name="verifyTitle" finished-at="2024-06-29T14:49:59 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.IndexPageTest@7bd4937b]" started-at="2024-06-29T14:49:59 IST" name="tearDown" finished-at="2024-06-29T14:49:59 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testcases.IndexPageTest -->
+      <class name="com.mystore.testcases.OrderPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.OrderPageTest@25fb8912]" started-at="2024-06-29T14:48:26 IST" name="setup" finished-at="2024-06-29T14:48:34 IST" duration-ms="8202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTotalPrice(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testcases.OrderPageTest@25fb8912]" started-at="2024-06-29T14:48:34 IST" name="verifyTotalPrice" data-provider="getProduct" finished-at="2024-06-29T14:49:08 IST" duration-ms="33899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dresses]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalPrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.OrderPageTest@25fb8912]" started-at="2024-06-29T14:49:08 IST" name="tearDown" finished-at="2024-06-29T14:49:08 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testcases.OrderPageTest -->
+      <class name="com.mystore.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.HomePageTest@5d7148e2]" started-at="2024-06-29T14:48:07 IST" name="setup" finished-at="2024-06-29T14:48:16 IST" duration-ms="9697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="orderHistoryandDetailsTest(java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testcases.HomePageTest@5d7148e2]" started-at="2024-06-29T14:48:16 IST" name="orderHistoryandDetailsTest" data-provider="credentials" finished-at="2024-06-29T14:48:24 IST" duration-ms="7168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdf@abcdf.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcdf@abcdf.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryandDetailsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.HomePageTest@5d7148e2]" started-at="2024-06-29T14:48:24 IST" name="tearDown" finished-at="2024-06-29T14:48:26 IST" duration-ms="1960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testcases.HomePageTest -->
+      <class name="com.mystore.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@2c35e847]" started-at="2024-06-29T14:49:24 IST" name="setup" finished-at="2024-06-29T14:49:32 IST" duration-ms="8091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@2c35e847]" started-at="2024-06-29T14:49:32 IST" name="loginTest" data-provider="credentials" finished-at="2024-06-29T14:49:39 IST" duration-ms="6205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdf@abcdf.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcdf@abcdf.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.LoginPageTest@2c35e847]" started-at="2024-06-29T14:49:39 IST" name="tearDown" finished-at="2024-06-29T14:49:39 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testcases.LoginPageTest -->
+    </test> <!-- Test_All -->
+  </suite> <!-- Suite -->
+</testng-results>
